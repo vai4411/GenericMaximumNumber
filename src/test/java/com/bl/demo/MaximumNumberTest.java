@@ -7,19 +7,19 @@ public class MaximumNumberTest {
 
     @Test
     public void testCode_IntegerObjectArray_ShouldReturnMaximumNumber() {
-        int max = MaximumNumber.maximum( new Integer[] {1,2,3});
+        Comparable max = new MaximumNumber<>().maximum( new Integer[] {1,2,3});
         Assert.assertEquals(3,max);
     }
 
     @Test
     public void testCode_FloatObjectArray_ShouldReturnMaximumNumber() {
-        float max = MaximumNumber.maximum( new Float[] {1.1f,2.1f,3.1f});
-        Assert.assertEquals(3.1f,max,0.01);
+        Comparable max = new MaximumNumber<>().maximum( new Float[] {1.1f,2.1f,3.1f});
+        Assert.assertEquals(3.1f, (Float) max,0.01);
     }
 
     @Test
     public void testCode_StringObjectArray_ShouldReturnMaximumNumber() {
-        String max = MaximumNumber.maximum( new String[] {"abc","def","ghi"});
+        Comparable max = new MaximumNumber<>().maximum( new String[] {"abc","def","ghi"});
         Assert.assertEquals("ghi",max);
     }
 }

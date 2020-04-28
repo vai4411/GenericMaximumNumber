@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.demo.MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T08:57:44" hostname="DESKTOP-QIO4ADF" time="0.003">
+<testsuite name="com.bl.demo.MaximumNumberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-28T09:26:19" hostname="DESKTOP-QIO4ADF" time="0.003">
   <properties/>
-  <testcase name="testCode_StringObjectArray_ShouldReturnMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.003"/>
+  <testcase name="testCode_FloatObjectArray_ShouldReturnMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.002"/>
+  <testcase name="testCode_IntegerObjectArray_ShouldReturnMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.0"/>
+  <testcase name="testCode_StringObjectArray_ShouldReturnMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
