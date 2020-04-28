@@ -25,7 +25,13 @@ public class MaximumNumberTest {
 
     @Test
     public void testCodeConstructor_ObjectArray_ShouldReturnMaximum() {
-        Comparable max = new MaximumNumber<>(1,2,3).maximumValue();
+        Comparable max = new MaximumNumber<>(1,2,3).maximumValue(3);
         Assert.assertEquals(3,max);
+    }
+
+    @Test
+    public void testCode_IntegerObjectArrayWithMultipleParameter_ShouldReturnMaximumNumber() {
+        Comparable max = new MaximumNumber<>(11,2,3,5,9,10,8).maximumValue(7);
+        Assert.assertEquals(11,max);
     }
 }
