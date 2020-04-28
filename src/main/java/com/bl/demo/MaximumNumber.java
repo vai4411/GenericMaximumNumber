@@ -18,4 +18,16 @@ public class MaximumNumber {
         }
         return max;
     }
+
+    public static String maximum(String[] array) {
+        String max = null;
+        char c = array[0].charAt(0);
+        int count = 0;
+        for (String i : array) {
+            if (c < array[count].charAt(0))
+                max = array[count];
+            count++;
+        }
+        return max;
+    }
 }

@@ -16,4 +16,10 @@ public class MaximumNumberTest {
         float max = MaximumNumber.maximum( new Float[] {1.1f,2.1f,3.1f});
         Assert.assertEquals(3.1f,max,0.01);
     }
+
+    @Test
+    public void testCode_StringObjectArray_ShouldReturnMaximumNumber() {
+        String max = MaximumNumber.maximum( new String[] {"abc","def","ghi"});
+        Assert.assertEquals("ghi",max);
+    }
 }
