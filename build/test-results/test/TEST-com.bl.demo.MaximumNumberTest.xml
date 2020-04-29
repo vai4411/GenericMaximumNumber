@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.demo.MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T14:08:47" hostname="DESKTOP-QIO4ADF" time="0.008">
+<testsuite name="com.bl.demo.MaximumNumberTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-29T06:23:38" hostname="DESKTOP-QIO4ADF" time="0.013">
   <properties/>
-  <testcase name="testCode_FloatObjectArrayWithMultipleParameter_ShouldPrintMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.008"/>
-  <system-out><![CDATA[3.1
+  <testcase name="testCode_FloatObjectArray_ShouldReturnMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.002"/>
+  <testcase name="testCodeConstructor_StringObjectArray_ShouldReturnMaximum" classname="com.bl.demo.MaximumNumberTest" time="0.005"/>
+  <testcase name="testCode_StringObjectArray_ShouldReturnMaximum" classname="com.bl.demo.MaximumNumberTest" time="0.001"/>
+  <testcase name="testCode_FloatObjectArrayWithMultipleParameter_ShouldPrintMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.003"/>
+  <testcase name="testCode_IntegerObjectArray_ShouldReturnMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.0"/>
+  <testcase name="testCode_IntegerObjectArrayWithMultipleParameter_ShouldReturnMaximumNumber" classname="com.bl.demo.MaximumNumberTest" time="0.001"/>
+  <testcase name="testCodeConstructor_IntegerObjectArray_ShouldReturnMaximum" classname="com.bl.demo.MaximumNumberTest" time="0.0"/>
+  <system-out><![CDATA[xyz
+3.1
+11
+3
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

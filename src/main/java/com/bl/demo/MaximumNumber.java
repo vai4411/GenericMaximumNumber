@@ -32,7 +32,7 @@ public class MaximumNumber<T extends Comparable> {
         return max;
     }
 
-    public void printMax() {
+    public void testMaximum(){
         if (firstVariable.compareTo(secondVariable) > 0 && firstVariable.compareTo(thirdVariable) > 0)
             max = firstVariable;
         else if (secondVariable.compareTo(thirdVariable) > 0)
@@ -42,11 +42,11 @@ public class MaximumNumber<T extends Comparable> {
         System.out.println(max);
     }
 
-    public T testMaximum(int parameter) {
-        if (parameter >= 3)
-            printMax();
+    public T printMax() {
+        if (variable.length >= 0)
+            testMaximum();
         else {
-            printMax();
+            testMaximum();
             for(int i=0 ; i<variable.length ; i++){
                 for(int j=1; j < (variable.length-i); j++){
                     if(variable[j-1].compareTo(variable[j]) > 0){
